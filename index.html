@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> By Paulo Santos revendedor</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__hamburguer container__imagem" ></span>
+            </label>
+            <ul class="lista-menu" class="container__rotulo">
+                <li class="lista-menu__titulo"> Categorias</li>
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link"> Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Lançamentos</a>
+               </li>
+               <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link"> Promoção</a>
+              </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Presentes </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Perfumaria </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Corpo e banho</a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Maquiagem</a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Cabelos </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Skincare </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Acessórios </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Marcas </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Produtos Sustentáveis </a>
+             </li>
+            </ul>
+            <img src="img/menu.paulo.svg" alt="menu" class="container__imagem">
+            <img src="img/logoprincipal.paulo.svg" alt="Logo" class="container__imagem">
+            <h1 class="container__titulo"> By <b class="container__titulo--negrito"> Paulo Santos Revendedor</b></h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão"> 
+            <label for="opções-menu">
+                <li class="lista-menu__titulo"> Categorias</li>
+            </label>
+            <li class="lista-menu__titulo"> Favoritos </li>
+            <li class="lista-menu__titulo"> Minhas compras</li>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link"> Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Lançamentos</a>
+               </li>
+               <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link"> Linha corporal</a>
+              </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Perfumaria </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Maquiagem</a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Skin care</a>
+             </li>
+            </ul>
+
+            <div class="container">
+                <a href="#"> <img src="img/favpaulo.svg" alt="Meus favoritos"
+                     class="container__imagem   container__imagem-transparente"></a>
+                <a href="#"  class="container__link">
+                     <img src="img/carrinhopaulo.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                    <p class="container__texto"> Minha Sacola</p>
+                <a href="#" class="container__link">
+                     <img src="img/usuariopaulo.svg" alt="Meu perfil" class="container__imagem"></a>
+                     <p class="container__texto"> Meu Perfil</p>
+            </div>
+    </header>
+
+    <header>
+        <section class="banner">
+         <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
+         <p class="banner__texto"> Confira nossas promoções!! </p>
+        <input type="search" class="banner__pesquisa" placeholder="O que você procura hoje??">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo"> Novos Lançamentos</h2>
+
+            <!-- Slider main container -->
+            <div class="carrossel__container"></div>
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/Produto.png"
+         alt=" malbec desosdorante"></div>
+      <div class="swiper-slide"><img src="img/Produto (1).png"
+         alt="Caderno Barbie"></div>
+      <div class="swiper-slide"> <img src="img/Produto (2).png" 
+        alt=" Mochila Lilás feminina"></div>
+      <div class="swiper-slide"><img src="img/Produto (3).png" 
+        alt="Caneta cis"></div>
+      <div class="swiper-slide"><img src="img/Produto (4).png" 
+        alt=" Kit de canetas Fabber Castell"></div>
+      <div class="swiper-slide"><img src="img/Produto (5).png" 
+        alt="estojo tilibra"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+
+ <section>
+    
+    <div class="card">
+        <!--1°linha-->
+        <div class="card__descrição">
+             <!--1°coluna-->
+            <div class="descrição">
+                <h3 class="descrição__titulo"></h3>
+                <h2 class="descrição__titulo-livro"> 💚BOTI PROMO💚</h2>
+                <p class="descrição__texto"></p> MAlBEC</p>
+                <p class="descrição__texto-s"> Kit Presente Club ( 4 itens )</p>
+            </div>
+             <!--2° coluna-->
+        <img src="img/Produto (18).png" alt="descrição__imagem">
+        </div>
+         <!--2° linha-->
+         <div class="card__botões">
+            <!--1° coluna-->
+            <ul class="botões">
+                <li class="btões__items"><img src="img/favpaulo.svg" alt="Favoritar livro"></li>
+                <li class="botões__items"> <img src="img/carrinhopaulo.svg" alt="Adicionar no carrinho de compras"></li>
+            </ul>
+            <!--2° coluna-->
+            <a href="#" class="botões__ancora"> Saiba mais</a>
+         </div>
+    </div>
+</div>
+
+
+<section class="carrossel">
+    <h2 class="carrossel__titulo"> Linha Corporal</h2>
+     <!-- Slider main container -->
+    <div class="carrossel__container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/botica214.png"
+     alt=" perfume 214"></div>
+  <div class="swiper-slide"><img src="img/cuide-sebem.png"
+     alt="Creme hidratante cuide-se bem"></div>
+  <div class="swiper-slide"> <img src="img/nativaspaquinoa.png" 
+    alt=" MCreme nativa Spa de Quinoa"></div>
+  <div class="swiper-slide"><img src="img/combocicacreme.png" 
+    alt="Combo Cica Creme"></div>
+  <div class="swiper-slide"><img src="img/cremelily.png" 
+    alt=" Creme hidratante Llily"></div>
+  <div class="swiper-slide"><img src="img/nativaspa.png" 
+    alt=" Creme Nativa Spa"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="carrossel">
+    <h2 class="carrossel__titulo"> Maquiagem</h2>
+     <!-- Slider main container -->
+    <div class="carrossel__container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/sombramate.png"
+     alt="  Sombra Mate"></div>
+  <div class="swiper-slide"><img src="img/lapispreto.png"
+     alt="Lápis Preto"></div>
+  <div class="swiper-slide"> <img src="img/baseliquida.png" 
+    alt=" Bse liquida"></div>
+  <div class="swiper-slide"><img src="img/batomcremoso.png" 
+    alt="Batom cremoso"></div>
+  <div class="swiper-slide"><img src="img/hidratantepcuticula.png" 
+    alt=" Hidratante para cuticula"></div>
+  <div class="swiper-slide"><img src="img/batomcremosoamendoa.png" 
+    alt="batom cremoso"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="carrossel">
+    <h2 class="carrossel__titulo"> APROvEITE AS EXPERIÊNCIAS COMPLETAS COM OS COMBOS!</h2>
+     <!-- Slider main container -->
+    <div class="carrossel__container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/Produto (6).png"
+     alt="produto"></div>
+  <div class="swiper-slide"> <img src="img/Produto (7).png" 
+    alt=" produto "></div>
+  <div class="swiper-slide"><img src="img/Produto (8).png" 
+    alt=" produto"></div>
+  <div class="swiper-slide"><img src="img/Produto (9).png" 
+    alt=" Kit de canetas Fabber Castell"></div>
+  <div class=" produto"><img src="img/Produto (10).png" 
+    alt=" produto"></div>
+    <div class="swiper-slide"><img src="img/Produto (11).png" 
+      alt="produto"></div>
+    </div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+
+<section class="carrossel">
+        <h2 class="carrossel__titulo"> PRODUTOS PARA CABELOS</h2>
+         <!-- Slider main container -->
+        <div class="carrossel__container">
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/Produto (12).png"
+         alt=" Caneta Pentel da papelaria Alforria"></div>
+      <div class="swiper-slide"><img src="img/Produto (13).png"
+         alt="Caderno Barbie"></div>
+      <div class="swiper-slide"> <img src="img/Produto (14).png" 
+        alt=" Mochila Lilás feminina"></div>
+      <div class="swiper-slide"><img src="img/Produto (15).png" 
+        alt="Caneta cis"></div>
+      <div class="swiper-slide"><img src="img/Produto (16).png" 
+        alt=" Kit de canetas Fabber Castell"></div>
+      <div class="swiper-slide"><img src="img/Produto (17).png" 
+        alt="estojo tilibra"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="tópicos">
+    <h2 class="tópicos__título"> TÓPICOS MAIS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Android</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Marketing digital</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Agile</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Startups</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> HTML e CSS</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Pyton</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> OO </a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Java</a>
+     </li>
+    </ul>
+</section>
+ 
+<section class="contato">
+    <div class="contato__descrição">
+     <h2 class="contato__titulo"> FIQUE POR DENTRO DAS NOVIDADES!</h2>
+     <p class="contato__texto"> Novidades, promoções, cumpom de desconto e outros</p>
+     </div>
+     <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo"> By Paulo Santos Oboticário e Eudora</h2>
+    <ul class="listarodapé">
+        <li class="Lista-rodapé__link"> Ajuda</li>
+        <li class="lista-rodapé__item">
+          <h2> Formas de pagamento</h2>
+          <h2> Entregas</h2>
+          <h2> Trocas e Devoluções</h2>
+          <h2> Entre em contato</h2>
+        </li>
+    </ul>
+
+
+    <ul class="lista-rodapé">
+        <li class="Lista-rodapé__link"> Fale com a gente
+           
+         <a href="#" class="lista-rodapé__link">
+              <img src="img/faxpaulo.png" alt="fax alforria"> (44)99885-3401</a>
+          <h2> Formas de pagamento</h2>
+          <h2> Entregas</h2>
+          <h2> Trocas e Devoluções</h2>
+          <h2> Entre em contato</h2>
+        </li>
+    </ul>
+
+</footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: { 
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+     });
+    </script>
+</body>
+</html>
+
